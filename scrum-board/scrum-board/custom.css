@@ -1,0 +1,78 @@
+body {
+  background-image: url("./jungle.jpg");
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  -webkit-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+}
+body span {
+  color: wheat;
+}
+body .navbar {
+  -webkit-backdrop-filter: blur(15px) brightness(70%) saturate(20%);
+          backdrop-filter: blur(15px) brightness(70%) saturate(20%);
+  opacity: 1;
+}
+body .d-flex {
+  margin-left: 64vh;
+}
+body .navbar-brand {
+  margin-left: 6vh;
+}
+body .spec {
+  margin-left: 2vh;
+}
+body input {
+  opacity: 0.8;
+  background: wheat !important;
+  border: none;
+  -webkit-backdrop-filter: blur(15px) brightness(70%) saturate(20%);
+          backdrop-filter: blur(15px) brightness(70%) saturate(20%);
+}
+
+.container {
+  margin: 50px;
+  -webkit-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+}
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: cener;
+      -ms-flex-pack: cener;
+          justify-content: cener;
+}
+.container .col-4 {
+  text-align: center;
+}
+.container .card {
+  background: #08510b;
+  border-radius: 25px;
+  height: 85vh;
+  opacity: 0.95;
+  border: 1px solid #233f24;
+}
+.container .add {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70vh;
+  border-radius: 25px;
+  width: 26vh;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 10px;
+  opacity: 1.5;
+}
+.container span {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+.container .add:hover {
+  background: dark;
+  color: dark;
+}
